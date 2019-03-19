@@ -1,0 +1,20 @@
+{
+    "name": "log/elklog",
+    "description": "elklog",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "licheng",
+            "email": "php_lee@163.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "ElkLog\\": "src/"
+        }
+    }
+}
